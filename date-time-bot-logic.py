@@ -18,7 +18,7 @@ def helpMsg(botId):
 **time** -- show current time
   '''
 
-def botJoinPrivateChatAction(bot, groupId):
+def botJoinPrivateChatAction(bot, groupId, user):
   """
   bot join private chat event handler
   bot could send some welcome message or help, or something else
