@@ -1,5 +1,6 @@
 {
   "name": "ringcentral-date-time-chatbot",
+  "version": "0.0.1",
   "description": "Demo ringcentral chatbot which can tell time/date created with ringcentral-chatbot-framework",
   "keywords": [
     "ringcentral",
@@ -8,7 +9,16 @@
     "python",
     "template"
   ],
-  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxdong262/ringcentral-date-time-chatbot.git"
+  },
+  "author": "Drake Zhao <drake.zhao@ringcentral.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zxdong262/ringcentral-date-time-chatbot/issues"
+  },
+  "homepage": "https://github.com/zxdong262/ringcentral-date-time-chatbot#readme",
   "devDependencies": {
     "ngrok": "3.1.0",
     "serverless": "1.33.2",
