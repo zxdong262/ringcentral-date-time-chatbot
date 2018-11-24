@@ -55,6 +55,7 @@ RINGCENTRAL_BOT_CLIENT_ID=
 RINGCENTRAL_BOT_CLIENT_SECRET=
 
 # create custom bot config file
+# All bot logic is in config.py, 68 lines only
 cp date-time-bot-logic.py config.py
 
 # run local dev server
