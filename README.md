@@ -100,10 +100,6 @@ Edit `lambda/serverless.yml`, and make sure you set the proper name and required
     RINGCENTRAL_BOT_CLIENT_ID:
     RINGCENTRAL_BOT_CLIENT_SECRET:
 
-    ## user might not need it
-    RINGCENTRAL_USER_CLIENT_ID: xxxx
-    RINGCENTRAL_USER_CLIENT_SECRET: xxxx
-
     ## common
     RINGCENTRAL_SERVER: https://platform.devtest.ringcentral.com
     RINGCENTRAL_BOT_SERVER: https://xxxx.execute-api.us-east-1.amazonaws.com/default/poc-your-bot-name-dev-bot
