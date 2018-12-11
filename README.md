@@ -69,7 +69,7 @@ cp date-time-bot-logic.py config.py
 
 AWS Lambda with API Gateway and DynamoDB would give us a flexible way to deploy the bot.
 
-This requires Nodejs 8.10+/npm, recommend using [nvm](https://github.com/creationix/nvm) to install nodejs/npm
+This requires Nodejs 8.10+/npm, recommend using [nvm](https://github.com/creationix/nvm) to install nodejs/npm.
 
 *Be aware that AWS Lambda **ONLY works in linux** on an x64 architecture. For **non-linux os**, we need **docker** to build dependencies, should [install docker](https://docs.docker.com/docker-for-mac/) first.
 
