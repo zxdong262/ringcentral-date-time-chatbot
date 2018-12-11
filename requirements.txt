@@ -1,3 +1,3 @@
 flask
 pylint
-ringcentral_bot_framework >=0.0.19
+ringcentral_bot_framework >=0.0.20
