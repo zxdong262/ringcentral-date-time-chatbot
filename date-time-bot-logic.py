@@ -44,6 +44,8 @@ def botGotPostAddAction(
   bot got group chat message: text
   bot could send some response
   """
+  if handledByExtension:
+    return
   if text == f'![:Person]({bot.id}) date':
     date = str(datetime.now().strftime('%Y-%m-%d'))
     bot.sendMessage(
